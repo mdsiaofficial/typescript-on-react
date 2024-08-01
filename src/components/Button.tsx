@@ -47,7 +47,7 @@ const Field: React.FC<newProps> = (props) => {
   const inputTrees = document.getElementById("trees") as HTMLInputElement;
   const inputFlowers = document.getElementById("flowers") as HTMLInputElement;
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     setGard({
@@ -61,7 +61,7 @@ const Field: React.FC<newProps> = (props) => {
     e.preventDefault();
 
     setGard({
-      name: e.target.,
+      name: inputName.value,
       trees: Number(inputTrees.value),
       flowers: Number(inputFlowers.value),
     })

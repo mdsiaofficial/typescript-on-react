@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {Button1, Button2, Field} from './components/Button'
+// import {Button1, Button2, Field} from './components/Button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,9 +30,9 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      <Button1 text="Ashiq" />
+      {/* <Button1 text="Ashiq" />
       <Button2 text="Kill" />
-      <Field text="Here is me" onclick={()=>(alert("Hi"))} age={10}/>
+      <Field text="Here is me" onclick={()=>(alert("Hi"))} age={10}/> */}
     </>
   )
 }
